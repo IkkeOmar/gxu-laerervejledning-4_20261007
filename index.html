@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GXU Lærervejledning 4 — Facit inline</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    background: #0b0d17;
+    color: #e6e9f5;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1.5rem;
+  }
+  .container { max-width: 720px; width: 100%; text-align: center; }
+  h1 {
+    font-size: clamp(1.6rem, 4vw, 2.4rem);
+    font-weight: 800;
+    background: linear-gradient(120deg, #f0c419 0%, #7c5cfc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 0.5rem;
+  }
+  .subtitle { color: #9aa3c0; font-size: 1rem; margin-bottom: 2.5rem; }
+  .qr-card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(240,196,25,0.3);
+    border-radius: 18px;
+    padding: 2rem 1.5rem;
+    margin: 0 auto 2rem;
+    backdrop-filter: blur(10px);
+    display: inline-block;
+  }
+  .qr-card img {
+    width: 260px; height: 260px;
+    background: white; padding: 12px; border-radius: 10px;
+  }
+  .qr-label { margin-top: 1rem; color: #c9d1e3; font-size: 0.95rem; }
+  .download {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.9rem 1.8rem;
+    background: linear-gradient(120deg, #f0c419, #7c5cfc);
+    color: #0b0d17;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 10px;
+  }
+  .download:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(240,196,25,0.3); }
+  .notice {
+    margin-top: 3rem;
+    padding: 1rem 1.2rem;
+    background: rgba(240,196,25,0.08);
+    border-left: 3px solid #f0c419;
+    border-radius: 6px;
+    text-align: left;
+    color: #c9d1e3;
+    font-size: 0.92rem;
+    line-height: 1.5;
+  }
+  footer { margin-top: 3rem; color: #6b7290; font-size: 0.8rem; }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>GXU Lærervejledning 4</h1>
+    <p class="subtitle">Brøkregning, Statistik &amp; Trigonometri — facit mellem hver opgave</p>
+
+    <div class="qr-card">
+      <img src="QR-gxu-laerervejledning-4.svg" alt="QR kode til denne side">
+      <div class="qr-label">Scan: ikkeomar.github.io/gxu-laerervejledning-4</div>
+    </div>
+
+    <a href="gxu-laerervejledning-4.pdf" download class="download">
+      Download PDF (6 sider)
+    </a>
+
+    <div class="notice">
+      <strong style="color:#f0c419">Brug:</strong> hver opgave i elev-hæftet har en gul facit-boks lige under sig i denne lærer-udgave. Plot-eksempler og teori er de samme — kun facit er flyttet fra appendiks til umiddelbart efter hver opgave, så du kan rette mens du kører rundt.
+    </div>
+
+    <footer>
+      Fra Omar og Karoline · Oktober 2026 · <a href="https://github.com/IkkeOmar/gxu-laerervejledning-4_20261007" style="color:#7c5cfc">kildekode</a> · <a href="/gxu-opgavesaet4_20261007/" style="color:#38bdf8">elev-udgave</a>
+    </footer>
+  </div>
+</body>
+</html>
